@@ -78,3 +78,5 @@ services:
       - redis-socketio
 
     container_name: frappe
+volumes:
+  data:
